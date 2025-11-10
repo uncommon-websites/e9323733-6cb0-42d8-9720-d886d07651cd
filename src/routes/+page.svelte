@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
+	title="Skin regeneration powered by concentrated GHK-Cu peptides"
+	subtitle="Clinical-strength formulations that stimulate collagen production and deliver real anti-aging results."
 	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by skincare enthusiasts"
+	logoUrls={[
+		'https://cdn.brandfetch.io/sephora.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/dermstore.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/net-a-porter.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/nordstrom.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
