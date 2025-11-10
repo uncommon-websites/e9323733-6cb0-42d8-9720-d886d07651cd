@@ -26,62 +26,91 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Science-backed skincare"
+	text="We formulate concentrated GHK-Cu peptide serums that work at the cellular level to regenerate skin and reverse visible signs of aging. Designed for discerning skincare enthusiasts who've tried everything else, our clinical-strength formulations deliver the collagen-boosting results that weaker products simply can't match."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Sharma",
+			position: "Marketing Director",
+			company: "Age 42",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
+				"After trying countless serums, this is the first product that delivered visible results in just 6 weeks. My fine lines are noticeably softer, and I'm saving $300 monthly on spa treatments that never worked as well.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Chen",
+			position: "Attorney",
+			company: "Age 38",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
+				"The concentrated GHK-Cu formula simplified my entire routine to 2 minutes daily. My skin looks healthier than it did five years ago, and I avoided the risk and expense of invasive procedures my colleagues tried.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Sofia Ramirez",
+			position: "Entrepreneur",
+			company: "Age 46",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
+				"I was skeptical of peptide claims until I saw clinical studies backing GHK-Cu. Three months in, my dermatologist noticed improved skin texture and elasticity. This replaced four products in my routine and actually works.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Why concentrated GHK-Cu peptides work"
+	subtitle="Real science, real results"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Clinical-strength concentration",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Our formulations contain therapeutic levels of GHK-Cu peptides that actually penetrate skin and stimulate collagen synthesis, unlike diluted alternatives that barely register."
 		},
 		{
-			title: "Data Analysis",
+			title: "Proven collagen production",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"GHK-Cu peptides trigger your skin's natural regeneration pathways to rebuild collagen and elastin. Clinical studies show visible improvement in fine lines and skin firmness within 8-12 weeks."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "No ingredient confusion",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"We focus on one powerhouse active ingredient at optimal concentration rather than mixing dozens of weak actives that compete and dilute effectiveness."
+		},
+		{
+			title: "Dermatologist-validated results",
+			description:
+				"Before-and-after clinical documentation shows measurable improvements in skin texture, elasticity, and fine lines, verified by independent dermatologists."
+		},
+		{
+			title: "Science-backed formulation",
+			description:
+				"Every product is formulated based on peer-reviewed research on GHK-Cu peptide efficacy, ensuring you get clinically meaningful concentrations that deliver results."
+		},
+		{
+			title: "Transparent ingredient strength",
+			description:
+				"We publish exact peptide concentrations on every product so you know exactly what you're getting, with no marketing fluff or proprietary blend hiding."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Stop wasting money on products that don't work"
+	subtitle="Start seeing real results in 8 weeks"
+	description="Clinical-strength GHK-Cu peptides backed by peer-reviewed research. Join thousands of skincare enthusiasts who stopped chasing the next miracle product and started rebuilding their skin at the cellular level. Every day you wait is another day of collagen loss."
+	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Start your transformation",
+			variant: "primary"
+		},
+		{
+			href: "/clinical-results",
+			label: "See clinical results",
+			variant: "secondary"
+		}
+	]}
+/>

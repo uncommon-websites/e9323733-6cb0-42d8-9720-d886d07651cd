@@ -21,8 +21,8 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
+		name: "Dr. Sarah Chen",
+		role: "Founder & Chief Scientific Officer",
 		image: "https://www.unc.mn/image-placeholder.svg"
 	};
 </script>
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After watching my mother spend thousands on products that barely worked, I left pharmaceutical research to create something different. GHK-Cu peptides changed everything I thought I knew about skin regeneration—and I couldn't keep that to myself."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
